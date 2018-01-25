@@ -18,6 +18,8 @@ Open [http://127.0.0.1:9191](http://127.0.0.1:9191) in your browser
 * GET `/items` - Shows all items
 * GET `/items/1` - Shows items by id
 * POST `/items` - Adds an item *Required fields:* `name`, `price`, `api_token`
+* POST `/register`- Adds a user *Required fields:* `name`, `email`, `password`
+* POST `/refreshtoken` - Generates a token *Required fields:* `email`, `password`
 
 For development the API token is `devtoken`, which should be in the database after running the migration.
 
